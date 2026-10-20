@@ -1,0 +1,147 @@
+{
+  "note": "这是全站访客文案的唯一来源。改完保存，刷新页面即可，不必改 HTML / CSS / JS。把某条的 placeholder 设为 false，页面上的「占位」标记会消失。没有的联系方式不要编造；links 里只放真实链接。",
+  "meta": {
+    "title": "kukuzhilove · AI 个人档案",
+    "description": "kukuzhilove 的 AI 个人档案。用 AI 做事、学习、协作。文案集中在 content.json，可直接替换。",
+    "siteUrl": "https://kukuzhilove.github.io/ai-portfolio/",
+    "lang": "zh-CN"
+  },
+  "profile": {
+    "displayName": "kukuzhilove",
+    "handle": "@kukuzhilove",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/166838129?v=4",
+    "avatarAlt": "kukuzhilove 的 GitHub 头像",
+    "githubUrl": "https://github.com/kukuzhilove",
+    "monogram": "K"
+  },
+  "hero": {
+    "index": "001",
+    "eyebrow": "AI Archive",
+    "kicker": "个人档案",
+    "tagline": "用 AI 做事、学习、协作。",
+    "lead": "一份和 Grok Bot、编码智能体、自动化有关的公开封面。文案是占位，可以直接换成你自己的话。",
+    "orbit": "AI ARCHIVE  ·  个人档案  ·  KUKUZHILOVE  ·  ",
+    "seal": "建设中",
+    "primaryCta": {
+      "label": "前往 GitHub",
+      "href": "https://github.com/kukuzhilove"
+    },
+    "secondaryCta": {
+      "label": "阅读档案",
+      "href": "#about"
+    }
+  },
+  "about": {
+    "index": "01",
+    "eyebrow": "About",
+    "title": "一份还在写的档案",
+    "paragraphs": [
+      "这是 kukuzhilove 的个人档案，记录用 AI 做事、学习、协作的方式。页面上的句子以 content.json 为准。",
+      "GitHub 简介还空着。名字、一句话、工具和项目都放在仓库根目录的 content.json。带「占位」标记的句子，是留给主人替换的空白。"
+    ],
+    "facts": [
+      { "label": "档案", "value": "001 · 封面" },
+      { "label": "身份", "value": "@kukuzhilove" },
+      { "label": "联络", "value": "目前仅 GitHub" },
+      { "label": "状态", "value": "文案待填写" }
+    ]
+  },
+  "tools": {
+    "index": "02",
+    "eyebrow": "Tools",
+    "title": "工具与方式",
+    "intro": "这些卡片来自配置，可以随时增删。把说明改成你真实的用法；用不到的工具删掉即可。",
+    "items": [
+      {
+        "name": "Grok Bot",
+        "en": "Conversation",
+        "description": "占位：用来提问、改写，并把模糊的想法收成下一步。写下你实际怎么用它。",
+        "placeholder": true
+      },
+      {
+        "name": "编码智能体",
+        "en": "Coding agents",
+        "description": "占位：把查阅、修改和验证交给智能体，自己留下判断。换成你的真实流程。",
+        "placeholder": true
+      },
+      {
+        "name": "自动化",
+        "en": "Automation",
+        "description": "占位：把稳定、重复的步骤交给脚本或工作流。没有的话就删掉这张卡片。",
+        "placeholder": true
+      }
+    ]
+  },
+  "projects": {
+    "index": "03",
+    "eyebrow": "Work",
+    "title": "项目",
+    "intro": "只保留真实存在的作品。除了本仓库，其余卡片是占位，链接暂时指向 GitHub 主页，避免空链接。",
+    "items": [
+      {
+        "title": "AI 个人档案",
+        "en": "This site",
+        "status": "进行中",
+        "description": "你正在看的这个仓库。静态页面，文案来自 content.json，准备发布到 GitHub Pages。",
+        "tags": ["静态站点", "GitHub Pages"],
+        "href": "https://github.com/kukuzhilove/ai-portfolio",
+        "linkLabel": "查看仓库",
+        "placeholder": false
+      },
+      {
+        "title": "待补充的实验",
+        "en": "Placeholder",
+        "status": "占位",
+        "description": "占位：换成你的作品标题和一句实话。只写已经存在的东西。",
+        "tags": ["待填写"],
+        "href": "https://github.com/kukuzhilove",
+        "linkLabel": "GitHub 主页",
+        "placeholder": true
+      },
+      {
+        "title": "待补充的协作",
+        "en": "Placeholder",
+        "status": "占位",
+        "description": "占位：可以是一次自动化、一个小工具，或和智能体一起完成、并且真实存在的作品。",
+        "tags": ["待填写"],
+        "href": "https://github.com/kukuzhilove",
+        "linkLabel": "GitHub 主页",
+        "placeholder": true
+      }
+    ]
+  },
+  "contact": {
+    "index": "04",
+    "eyebrow": "Contact",
+    "title": "在 GitHub 上找我",
+    "text": "邮箱和其他联络方式还没填写。补上之前，这里只指向 GitHub。把新链接加进 contact.links 即可。",
+    "links": [
+      {
+        "label": "GitHub",
+        "hint": "github.com/kukuzhilove",
+        "href": "https://github.com/kukuzhilove"
+      }
+    ]
+  },
+  "footer": {
+    "left": "kukuzhilove · AI 个人档案",
+    "right": "文案只改 content.json"
+  },
+  "nav": [
+    { "label": "关于", "href": "#about" },
+    { "label": "工具", "href": "#tools" },
+    { "label": "项目", "href": "#projects" },
+    { "label": "联络", "href": "#contact" }
+  ],
+  "ui": {
+    "skipToContent": "跳到正文",
+    "openMenu": "打开菜单",
+    "closeMenu": "关闭菜单",
+    "menu": "菜单",
+    "navLabel": "页面章节",
+    "github": "GitHub",
+    "placeholder": "占位",
+    "newTab": "在新标签页打开",
+    "edge": "AI ARCHIVE"
+  }
+}
