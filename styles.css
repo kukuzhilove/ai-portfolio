@@ -468,7 +468,6 @@ a {
   height: 112%;
   overflow: visible;
   color: rgba(244, 240, 230, 0.72);
-  animation: spin 72s linear infinite;
 }
 
 .orbit text {
@@ -476,6 +475,9 @@ a {
   font-size: 11px;
   letter-spacing: 1.5px;
   fill: currentColor;
+  transform-box: view-box;
+  transform-origin: center;
+  animation: spin 72s linear infinite;
 }
 
 .portrait {
@@ -1033,6 +1035,10 @@ a {
 
   .hero-name {
     font-size: clamp(2.5rem, 12vw, 3.6rem);
+  }
+
+  .seal-wrap {
+    width: min(268px, calc(100% - 72px));
   }
 
   .tool-grid {

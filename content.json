@@ -19,7 +19,7 @@
     "eyebrow": "AI Archive",
     "kicker": "个人档案",
     "tagline": "用 AI 做事、学习、协作。",
-    "lead": "一份和 Grok Bot、编码智能体、自动化有关的公开封面。文案是占位，可以直接换成你自己的话。",
+    "lead": "封面先放上这些关键词：Grok Bot、编码智能体、自动化。句子仍是占位，可以换成你自己的话。",
     "orbit": "AI ARCHIVE  ·  个人档案  ·  KUKUZHILOVE  ·  ",
     "seal": "建设中",
     "primaryCta": {
@@ -36,8 +36,8 @@
     "eyebrow": "About",
     "title": "一份还在写的档案",
     "paragraphs": [
-      "这是 kukuzhilove 的个人档案，记录用 AI 做事、学习、协作的方式。页面上的句子以 content.json 为准。",
-      "GitHub 简介还空着。名字、一句话、工具和项目都放在仓库根目录的 content.json。带「占位」标记的句子，是留给主人替换的空白。"
+      "这是 kukuzhilove 的个人档案，记下用 AI 做事、学习、协作的方式。",
+      "公开介绍还很短。标着「占位」的卡片，是留给以后填写的空白，不是已经发生的经历。"
     ],
     "facts": [
       { "label": "档案", "value": "001 · 封面" },
@@ -50,7 +50,7 @@
     "index": "02",
     "eyebrow": "Tools",
     "title": "工具与方式",
-    "intro": "这些卡片来自配置，可以随时增删。把说明改成你真实的用法；用不到的工具删掉即可。",
+    "intro": "这些方式可以增删。卡片里的说明还是占位，以后换成真实用法。",
     "items": [
       {
         "name": "Grok Bot",
@@ -76,7 +76,7 @@
     "index": "03",
     "eyebrow": "Work",
     "title": "项目",
-    "intro": "只保留真实存在的作品。除了本仓库，其余卡片是占位，链接暂时指向 GitHub 主页，避免空链接。",
+    "intro": "先放已经存在的作品。还没写上的卡片是占位，链接暂时回到 GitHub 主页。",
     "items": [
       {
         "title": "AI 个人档案",
@@ -91,7 +91,7 @@
       {
         "title": "待补充的实验",
         "en": "Placeholder",
-        "status": "占位",
+        "status": "待补充",
         "description": "占位：换成你的作品标题和一句实话。只写已经存在的东西。",
         "tags": ["待填写"],
         "href": "https://github.com/kukuzhilove",
@@ -101,7 +101,7 @@
       {
         "title": "待补充的协作",
         "en": "Placeholder",
-        "status": "占位",
+        "status": "待补充",
         "description": "占位：可以是一次自动化、一个小工具，或和智能体一起完成、并且真实存在的作品。",
         "tags": ["待填写"],
         "href": "https://github.com/kukuzhilove",
@@ -114,7 +114,7 @@
     "index": "04",
     "eyebrow": "Contact",
     "title": "在 GitHub 上找我",
-    "text": "邮箱和其他联络方式还没填写。补上之前，这里只指向 GitHub。把新链接加进 contact.links 即可。",
+    "text": "公开邮箱还没填写。在那之前，从 GitHub 找到我就好。",
     "links": [
       {
         "label": "GitHub",
